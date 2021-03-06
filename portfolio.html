@@ -2,6 +2,7 @@
 <html lang="ru">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ЭФФЕКТИВНЫЕ РЕШЕНИЯ ДЛЯ ВАШЕГО БИЗНЕСА</title>
     <link
@@ -16,42 +17,47 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
-      <nav>
+  <!-- Шапка -->
+    <header class="header">
+      <div class="container">
+      <nav class="nav-menu">
         <!--Логотип-->
-        <a href="" class="logo link logo-light"
-          ><span class="letter">Web</span>Studio</a
-        >
-        <ul class="list">
-          <li>
-            <a href="./index.html" class="nav-link link">Студия</a>
+        <a href="./index.html" class="logo link logo-light"><span class="letter">Web</span>Studio</a>
+        <ul class="nav-menu-list list">
+          <li class="nav-menu-list-item">
+            <a href="./index.html" class="nav-link link active-link">Студия</a>
           </li>
-          <li>
-            <a href="./portfolio.html" class="nav-link link active-link">Портфолио</a>
+          <li class="nav-menu-list-item">
+            <a href="./portfolio.html" class="nav-link link">Портфолио</a>
           </li>
-          <li>
+          <li class="nav-menu-list-item">
             <a href="" class="nav-link link">Контакты</a>
           </li>
         </ul>
       </nav>
       <!--Контакты-->
-      <ul class="list">
-        <li>
-          <a href="tel:+380961111111" class="nav-link link nav-contact-link  "
+      <ul class="contact-list list">
+        <li class="nav-menu-list-item">
+          <a href="tel:+380961111111" class="nav-contact-link nav-link link"
             >+38 096 111 11 11</a
           >
         </li>
-        <li>
-          <a href="mailto:info@devstudio.com" class="nav-link link nav-contact-link "
+        <li class="nav-menu-list-item">
+          <a
+            href="mailto:info@devstudio.com"
+            class="nav-contact-link nav-link link"
             >info@devstudio.com</a
           >
         </li>
       </ul>
+    </div>
     </header>
-    <h1 class="">Портфолио</h1>
-    <section>
-      <h2 class="">Фильтры портфолио</h2>
-      <ul class="list">
+    <main>
+      <section class="filters">
+        <div class="container">
+    <h1 class="visually-hidden">Портфолио</h1>
+      <h2 class="visually-hidden">Фильтры портфолио</h2>
+      <ul class="filters list">
         <li class="list-item">
           <button type="button" class="filter-btn">Все</button>
         </li>
@@ -68,132 +74,181 @@
           <button type="button" class="filter-btn">Маркетинг</button>
         </li>
       </ul>
-      <ul class="list">
-        <li>
-          <a href=""> <img
+      
+ <!--Проекты -->
+      <ul class="card-set list">
+        <li class="item-third">
+          <div class="card-project">
+          <a href="" class="link"> 
+            <img
             src="./images/portfolio/img1.jpg"
             alt="Ноутбук"
             width="370"
-            height="294"
           />
+          <div class="contact-card">
           <h3 class="item-title">Технокряк</h3>
           <p lang="ru" class="product-item">Веб-сайт</p>
+          </div>
           </a>
+        </div>
         </li>
 
-        <li>
+        <li class="item-third">
+          <div class="card-project">
+            <a href="" class="link"> 
           <img
             src="./images/portfolio/img2.jpg"
             alt="Баскетболисты"
             width="370"
-            height="294"
           />
+          <div class="contact-card">
           <h3 class="item-title">Постер New Orlean vs Golden Star</h3>
           <p lang="ru" class="product-item">Дизайн</p>
+        </div>
+      </a>
+    </div>
         </li>
 
-        <li>
+        <li class="item-third">
+          <div class="card-project">
+            <a href="" class="link"> 
           <img
             src="./images/portfolio/img3.jpg"
             alt="Логотип"
             width="370"
-            height="294"
           />
+          <div class="contact-card">
           <h3 class="item-title">Ресторан Seafood</h3>
           <p lang="en" class="product-item">Marketing</p>
+        </div>
+      </a>
+    </div>
         </li>
 
-        <li>
+        <li class="item-third">
+          <div class="card-project">
+            <a href="" class="link"> 
           <img
             src="./images/portfolio/img4.jpg"
             alt="Наушники"
             width="370"
-            height="294"
           />
+          <div class="contact-card">
           <h3 class="item-title">Проект Prime</h3>
           <p lang="ru" class="product-item">Маркетинг</p>
+        </div>
+      </a>
+    </div>
         </li>
-        <li>
+        <li class="item-third">
+        <div class="card-project">
+          <a href="" class="link"> 
           <img
             src="./images/portfolio/img5.jpg"
             alt="Коробки"
             width="370"
-            height="294"
           />
+          <div class="contact-card">
           <h3 class="item-title">Проект Boxes</h3>
           <p lang="ru" class="product-item">Приложение</p>
+        </div>
+      </a>
+    </div>
         </li>
-        <li>
+        <li class="item-third">
+          <div class="card-project">
+            <a href="" class="link"> 
           <img
             src="./images/portfolio/img6.jpg"
             alt="Монитор"
             width="370"
-            height="294"
           />
+          <div class="contact-card">
           <h3 class="item-title">Inspiration has no Borders</h3>
           <p lang="ru" class="product-item">Веб-сайт</p>
+        </div>
+      </a>
+    </div>
         </li>
-        <li>
+        <li class="item-third">
+          <div class="card-project">
+            <a href="" class="link"> 
           <img
             src="./images/portfolio/img7.jpg"
             alt="Книжка"
             width="370"
-            height="294"
           />
+          <div class="contact-card">
           <h3 class="item-title">Издание Limited Edition</h3>
           <p lang="ru" class="product-item">Дизайн</p>
+        </div>
+      </a>
+    </div>
         </li>
-        <li>
+        <li class="item-third">
+          <div class="card-project">
+            <a href="" class="link"> 
           <img
             src="./images/portfolio/img8.jpg"
             alt="*Бирка"
             width="370"
-            height="294"
           />
+          <div class="contact-card">
           <h3 class="item-title">Проект LAB</h3>
           <p lang="ru" class="product-item">Маркетинг</p>
+        </div>
+      </a>
+    </div>
         </li>
-        <li>
-          <a href="">
+        <li class="item-third">
+          <div class="card-project">
+            <a href="" class="link"> 
           <img
             src="./images/portfolio/img9.jpg"
             alt="Набирать текст на ноутбуке"
             width="370"
-            height="294"
           />
+          <div class="contact-card">
           <h3 class="item-title">Growing Business</h3>
           <p lang="ru" class="product-item">Приложение</p>
-          </a>
+        </div>
+      </a>
+    </div>
         </li>
       </ul>
+    </div>
     </section>
+  </main>
+  <!-- Подвал -->
     <footer class="footer-bg">
-      <a href="" class="logo link logo-dark"
+      <div class="container">
+      <a href="./index.html" class="logo link logo-dark"
         ><span class="letter">Web</span>Studio</a
       >
       <address class="address">
-        <ul class="list">
-          <li>
+        <ul class="footer-nav list">
+          <li class="nav-menu-list-item">
             <a
               href="https://goo.gl/maps/rmxDf8wJgDax7i2T6"
               target="_blank"
               rel="noopener noreferrer"
-              class="nav-link map-link link"
-              >Киев. пр-т. Леси Украинки 26></a
+              class="map-link nav-link link"
+              >Киев. пр-т. Леси Украинки 26</a
             >
           </li>
-          <li>
-            <a href="mailto:info@devstudio.com" class="nav-link tr-link link"
+          <li class="nav-menu-list-item">
+            <a href="mailto:info@devstudio.com" class="tr-link nav-link link"
               >info@devstudio.com</a
             >
           </li>
-          <li>
-            <a href="tel:+380961111111" class=" nav-link tr-link link "
+          <li class="nav-menu-list-item">
+            <a href="tel:+380961111111" class="tr-link nav-link link"
               >+38 096 111 11 11</a
             >
           </li>
         </ul>
       </address>
+    </div>
     </footer>
   </body>
 </html>
