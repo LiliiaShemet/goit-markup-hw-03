@@ -53,9 +53,10 @@ ul {
 }
 /*--END Обязатектаельный сброс в начале нового проекта--*/
 .container {
-  margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
+  margin-right: auto;
+  margin-left: auto;
   width: 1200px;
 }
 .visually-hidden {
@@ -265,17 +266,17 @@ background-color: var(--secondary-button-bgc);
 .filters {
   padding-top: 94px;
   padding-bottom: 94px;
+  
 }
 
 .filters.list {
   display: flex;
-  margin-right: auto;
-  margin-left: auto;
-  margin-bottom: 50px;
-  padding: 0px;
-  width: 611px;
+  justify-content: center;
 
-  justify-content: space-between;
+}
+
+.filters.list .list-item:not(:last-child) {
+  margin-right: 8px;
 }
 
 /* ======== ОСОБЕННОСТИ ======== */
@@ -406,7 +407,7 @@ background: var(--dark-graylish-blue-color);
 }
 
 .footer-nav {
-  padding-top: 20px;
+  margin-top: 20px;
   padding-left: 0px;
   font-style: normal;
   font-weight: normal;
