@@ -50,6 +50,7 @@ ul {
 }
 .address {
     font-style: normal;
+    margin-top: 20px;
 }
 /*--END Обязатектаельный сброс в начале нового проекта--*/
 .container {
@@ -81,7 +82,7 @@ ul {
   display: flex;
   align-items: center;
   padding-top: 24px;
-  padding-bottom: 24px;
+  padding-bottom: 47px;
 }
 .header .container {
   display: flex;
@@ -107,6 +108,7 @@ ul {
     display: flex;
     align-items: center;
     margin-left: auto;
+    padding-inline-start: unset;
   }
 
   .contact-list .nav-menu-list-item:not(:last-child) {
@@ -249,7 +251,7 @@ background-color: var(--secondary-button-bgc);
   font-size: 16px;
   line-height: 1.18;
   /* identical to box height */
-
+margin-bottom: 10px;
   text-align: center;
 }
 
@@ -257,22 +259,19 @@ background-color: var(--secondary-button-bgc);
   font-size: 16px;
   line-height: 1.18;
   /* identical to box height */
-
+  font-weight: 400;
+  color: var(--dark-gray-color);
   text-align: center;
 }
 
 /*===========END ABOUT===============*/
 /* ======== FILTER ======== */
-.filters {
-  padding-top: 94px;
-  padding-bottom: 94px;
-  
-}
 
 .filters.list {
   display: flex;
   justify-content: center;
-
+  padding-top: 47px;
+  margin-bottom: 50px;
 }
 
 .filters.list .list-item:not(:last-child) {
@@ -407,7 +406,6 @@ background: var(--dark-graylish-blue-color);
 }
 
 .footer-nav {
-  margin-top: 20px;
   padding-left: 0px;
   font-style: normal;
   font-weight: normal;
